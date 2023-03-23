@@ -11,7 +11,7 @@ int main(void)
 {	int i, num1, num2, chamadas, resultado;
 
 	scanf("%d", &chamadas);
-
+//Resolvi fazer tudo por funções para treinar
 	for(i=0;i<chamadas;i++)
 	{
 		scanf("%d %d", &num1, &num2);
@@ -21,12 +21,12 @@ int main(void)
 
 	return 0;
 }
-
+//Função que calcula a soma
 int Soma(int n1, int n2)
 {
 	return n1+n2;
 }
-
+//Função que classifica a música
 void Musicas(int result)
 {
 	switch(result)
